@@ -19,7 +19,7 @@ namespace Project_Console
             // 게임 오버가 아니면 게임이 계속 돌아가게 만들기
             bool gameOver = false;
             // 구조체에 만든 플레이어 위치 할당
-            Position player; 
+            Position player;
             // char 2차원 배열로 맵 할당
             char[,] map; // 2차원 배열로 첫 번째 맵으로 지정 가능
 
@@ -27,7 +27,6 @@ namespace Project_Console
 
             Start(out player, out map);
 
-            
                 while (gameOver == false)
                 {
                     // 그리기
